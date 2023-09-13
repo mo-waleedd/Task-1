@@ -1,0 +1,445 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    overflow-x: hidden;
+    height: 4000px;
+}
+
+header{
+    display: flex;
+}
+
+nav {
+    position: relative;
+    bottom: 36px;
+    left: 20px;
+}
+
+.Logo {
+    margin: 52px;
+    position: relative;
+    top: 0px;
+}
+
+
+.nav-container {
+    display: flex;
+}
+
+.nav-container div {
+    position: relative;
+    top: 90px;
+    right: 35px;
+}
+
+.a-container {
+    height: fit-content;
+    margin-left: -30px;
+}
+
+.a-container a {
+    text-decoration: none;
+    padding-right: 45px;
+    font-family: 'Roboto', sans-serif;
+    height: fit-content;
+    width: fit-content;
+    color: black;
+}
+
+.login-btn {
+    height: fit-content;
+    position: relative;
+    left: 640px;
+    top: 67px;
+}
+
+/* header {
+    background-image: url(images/blue_bg\(3\).png);
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+} */
+
+.header-background {
+    position: relative;
+    bottom: 13rem;
+}
+
+.right-side {
+    height: 724px;
+    width: 57%;
+}
+
+.right-side img {
+    width: 42rem;
+    position: relative;
+    left: 4rem;
+    top: -1rem;
+}
+
+.mask-group {
+    display: flex;
+    position: relative;
+    bottom: 45rem;
+    left: 12rem;
+}
+
+.mask-group img {
+    height: 44%;
+    width: 23%;
+}
+
+.header-background {
+    position: relative;
+    bottom: 14%;
+}
+
+.right-side-container {
+    position: relative;
+    left: 40rem;
+    bottom: 62rem;
+}
+
+.clouds {
+    position: relative;
+    right: 23rem;
+    top: 28rem;
+}
+
+.mask-group-title {
+    font-family: 'Roboto', sans-serif;
+    position: relative;
+    right: 95%;
+    top: 14rem;
+    word-spacing: 2px;
+    color: #5c5f60;
+    font-size: 46px;
+}
+
+span {
+    color: #850a97;
+}
+
+.middl.waves .waves img {
+    width: 50%;
+    height: 25%;
+}
+
+.middle-section {
+    position: relative;
+    bottom: 45%;
+}
+
+.middle {
+    position: relative;
+    bottom: 51%;
+}
+
+.waves {
+    position: relative;
+    top: 4rem;
+}
+
+.waves img {
+    width: 63%;
+}
+
+.middle-imgs {
+    display: flex;
+}
+
+.road {
+    position: relative;
+    left: 23rem;
+    top: 6rem;
+}
+
+.road img {
+    height: 65%;
+}
+/* -------------------------------------------------------------------------------------------- */
+.first-img {                                                                                  
+    position: relative;
+    right: 62rem;
+    top: 10rem;
+}
+
+.first-img img {
+    width: 200px;
+}
+
+.f-img-title {
+    position: relative;
+    right: 77rem;
+    top: 19rem;
+    text-align: center;
+}
+
+.f-img-title h3 {
+    font-family: 'Roboto', sans-serif;
+    line-height: 2;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+    margin-left: 13px;
+}
+
+.f-img-title p {
+    font-family: 'Roboto', sans-serif;
+    color: #5c5f60;
+    position: relative;
+    bottom: 25px;
+    line-height: 1.5;
+}
+/* ------------------------------------------------------------------------------------------- */
+.seconed-img {
+    position: relative;
+    right: 66.5rem;
+    top: 17rem;
+}
+
+.seconed-img img {
+    width: 200px;
+}
+
+.seconed-img-title 
+p,
+h3 {
+    font-family: 'Roboto', sans-serif;   
+}
+
+.seconed-img-title p {
+    position: relative;
+    bottom: 20px;
+    line-height: 1.5;
+}
+
+.seconed-img-title {
+    position: absolute;
+    left: 37rem;
+    top: 38rem;
+    text-align: center;
+}
+/* -------------------------------------------------------------------------------------------------------- */
+.third-img {
+    position: relative;
+    right: 61rem;
+    top: 31.5rem;
+}
+
+.third-img img {
+    width: 200px;
+}
+
+.third-img-title {
+    position: absolute;
+    text-align: center;
+    right: 19rem;
+    top: 50rem;
+}
+
+.third-img-title 
+h3,
+p {
+    font-family: 'Roboto', sans-serif;
+}
+
+.third-img-title p {
+    position: relative;
+    bottom: 17px;
+    line-height: 1.5;
+}
+
+.why-choose-kudzoka img{
+    height: fit-content;
+    width: 33vh;
+    position: relative;
+    left: 14rem;
+    bottom: 6rem;
+}
+
+.why-choose-kudzoka span {
+
+    font-family: 'Roboto', sans-serif;
+    position: relative;
+    bottom: 14rem;
+    left: 43px;
+    color: white;
+    font-size: 14px;
+}
+
+.why-choose-kudzoka h2 {
+
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    position: relative;
+    bottom: 13.5rem;
+    left: 18rem;
+    letter-spacing: 1.5px;
+    color: white;
+}
+
+.carousel {
+    display: flex;
+    position: relative;
+    bottom: 104rem;
+}
+
+.carousel-container {
+    display: flex;
+    margin: auto;
+    height: 167px;
+}
+
+.c-1 {
+    padding-right: 93px;
+}
+
+.c-2 {
+    height: 307px;
+    position: relative;
+    bottom: 9rem;
+}
+
+.c-3 {
+    margin-left: 93px;
+}
+
+.carousel-title {
+    position: relative;
+    left: 1rem;
+    bottom: 104rem;
+    text-align: center;
+}
+
+.carousel-title h2 {
+    font-family: 'Roboto', sans-serif;
+}
+
+.carousel-title p {
+    font-family: 'Roboto', sans-serif;
+
+}
+
+
+footer {
+    background-image: url(mid-img/Group\ 1131.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 104rem;
+    height: 37rem;
+    position: relative;
+    bottom: 109rem;
+    margin-right: irem;
+    right: 2rem;
+}
+
+.right-side img {
+    width: 42rem;
+    position: relative;
+    left: 5rem;
+    top: 2rem;
+} 
+
+.left-side {
+    width: fit-content;
+    position: relative;
+    bottom: 56px;
+    left: 188px;
+}
+
+.left-side span {
+    position: relative;
+    bottom: 5px;
+}
+
+.left-side .span-2 {
+    position: relative;
+    bottom: 5px;
+}
+
+.left-side button {
+    height: 40px;
+    padding: 8px;
+    padding-bottom: 34px;
+    border-radius: 14px;
+    border: white;
+}
+
+.left-side .btn-2 {
+    height: 40px;
+    padding: 8px;
+    padding-bottom: 34px;
+    border-radius: 14px;
+    border: white;
+    position: relative;
+    left: 19px;
+}
+
+.social-media {
+    display: flex;
+    position: relative;
+    top: 26px;
+}
+
+.instagram {
+    padding-right: 13px;
+}
+
+.facebook {
+    padding-left: 13px;
+}
+
+.login-btn span {
+    font-family: 'Roboto', sans-serif;
+    position: relative;
+    right: 90px;
+    bottom: 1rem;
+}
+
+.deliver img {
+    width: 43rem;
+    position: relative;
+    left: 47rem;
+    top: 133px;
+}
+
+.whatsapp {
+    margin-left: 13px
+}
+
+.links {
+    height: fit-content;
+    margin-left: -30px;
+    position: relative;
+    top: 69px;
+    right: 87px;
+}
+
+.links a {
+    text-decoration: none;
+    padding-right: 45px;
+    font-family: 'Roboto', sans-serif;
+    height: fit-content;
+    width: fit-content;
+    color: white;
+}
+
+.right-side-title {
+    position: absolute;
+    right: 49rem;
+    top: 19rem;
+    margin-right: 64rem;
+    white-space: nowrap;
+    line-height: 1.5;
+    word-spacing: 2px;
+    font-size: 20px;
+    font-family: sans-serif;
+    color: f1f1f1;
+    color: #9e9e9e;
+}
